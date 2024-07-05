@@ -1,0 +1,12 @@
+[package]
+name = "Workshop"
+version = "1.0.0"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+team_addr = "0xfe09cf15eed39fe8893a2492cbf4d3f4c375fe1f1b568aa7b5a36318c4617b00"
+
